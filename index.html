@@ -48,7 +48,7 @@ function execute(thing, command) {
       document.getElementById("demo").innerHTML = this.responseText;
     }
   };
-  xhttp.open("GET", "http://iotworkshop-api.herokuapp.com/thing/" + thing + "/" + command, true);
+  xhttp.open("GET", "https://iotworkshop-api.herokuapp.com/thing/" + thing + "/" + command, true);
   xhttp.send();
 }
 </script>
